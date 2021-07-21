@@ -161,17 +161,18 @@ ul {
 /* portfolio page */
 .filters {
   text-align: center;
+}
+.filters .button {
+  color: var(--title-text-color);
+  background-color: #f5f4fa;
+
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
-.filters > .button {
-  color: var(--title-text-color);
-  background-color: #f5f4fa;
-  cursor: pointer;
-}
-.filters > .button:hover,
-.filters > .button:focus {
+.filters .button:hover,
+.filters .button:focus {
   color: var(--white);
   background-color: var(--accent-color);
 }
