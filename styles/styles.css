@@ -163,6 +163,7 @@ ul {
   text-align: center;
 }
 .filters .button {
+  font-family: inherit;
   color: var(--title-text-color);
   background-color: #f5f4fa;
 
